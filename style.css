@@ -8,6 +8,9 @@ body {
   margin-top: 100px !important;
   padding: 30px !important;
 }
+#mainpage {
+margin: 0px !important;
+}
 
 h1 {
   font-size: 55px !important;
