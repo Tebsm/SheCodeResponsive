@@ -6,10 +6,11 @@
 
 body {
   margin-top: 100px !important;
+  padding: 30px !important;
 }
 
 h1 {
-  font-size: 96px !important;
+  font-size: 55px !important;
   font-family: 'Playfair Display', serif;
 }
 
@@ -83,4 +84,14 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+.row mt-5 {
+padding-left: 50px;
+padding-right: 30px;}
+padding-bottom: 30px;
+padding-top: 30px;
+
+.fa-brands fa-whatsapp {
+  background-color: green;
+
 }
