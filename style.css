@@ -5,34 +5,85 @@
 }
 
 body {
-  margin-top: 100px !important;
-  padding: 30px !important;
+  background-color: #f2f1ce !important;
+  margin-top: 10px !important;
+  padding: 0px !important;
 }
-#mainpage {
-margin: 0px !important;
-}
+main {
+max-width: 1200px;
+margin: 0 auto;
+  padding-left: 20px; }
 
 h1 {
-  font-size: 55px !important;
+  font-size: 50px !important;
   font-family: 'Playfair Display', serif;
 }
 
 h2 {
-  font-size: 48px !important;
+  font-size: 36px !important;
   font-family: 'Playfair Display', serif;
 }
 
 h3 {
-  font-size: 24px !important;
+  font-size: 26px !important;
   opacity: 0.7;
   font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
 }
+h4 {
+  font-size: 22px !important;
+  opacity: 0.7;
+  font-family: 'Playfair Display', serif;
+font-family: 'P-posts', sans-serif;
+padding: 20px !important;
+margin-left: 10px !important;}
 
 p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
 }
+header {
+  background-color: #b6b46c;
+  color: white;
+  padding: 10px 0;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.logo {
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 0;
+ 
+}
+
+.menu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+  
+}
+
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .menu a {
+    margin: 0 20px;
 
 .navigation-links {
   display: flex;
@@ -67,7 +118,7 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
-}
+} 
 
 .about-paragraphs {
   margin: 30px 0;
@@ -89,6 +140,7 @@ p {
   text-decoration: underline;
 }
 .row mt-5 {
+  background-color: bisque;
 padding-left: 50px;
 padding-right: 30px;}
 padding-bottom: 30px;
@@ -97,4 +149,32 @@ padding-top: 30px;
 .fa-brands fa-whatsapp {
   background-color: green;
 
+}
+.footer {
+  background-color: #b6b46c;
+}
+#contact {
+  background-color: #b6b46c;
+  padding-left: 20px;
+}
+#services {
+  background-color: #b6b46c;
+  padding-left: 20px;
+}
+#about {
+  background-color: #b6b46c;
+  padding-left: 20px;
+}
+}
+.text-center {
+  margin-top: 20px;
+}
+ul {
+ 
+  list-style-type: none !important;
+ 
+}
+
+li{
+  font-size: 20px !important;
 }
