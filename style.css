@@ -1,13 +1,14 @@
-:root {
+/* :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
+} */
 
 body {
   background-color: #f2f1ce !important;
   margin-top: 10px !important;
   padding: 0px !important;
+  margin-bottom: 20px !important;
 }
 main {
 max-width: 1200px;
@@ -177,4 +178,8 @@ ul {
 
 li{
   font-size: 20px !important;
+}
+#footer {
+  padding-top: 20px;
+  background-color: #b6b46c;
 }
